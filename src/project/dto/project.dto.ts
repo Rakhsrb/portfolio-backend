@@ -1,11 +1,11 @@
 import { IsNotEmpty } from 'class-validator';
 
-export class BlogDto {
+export class ProjectDto {
   @IsNotEmpty()
-  title: string;
+  name: string;
 
   @IsNotEmpty()
-  excerpt: string;
+  type: string;
 
   @IsNotEmpty()
   description: string;
